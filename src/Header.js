@@ -13,8 +13,8 @@ import ThumbsUpDownIcon from '@mui/icons-material/ThumbsUpDown'
 import PersonAddIcon from '@mui/icons-material/PersonAdd'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 
-// import logo from "./assets/images/logo.png"
-// const Spacer = require('react-spacer')
+import logo from "./images/logo.png"
+const Spacer = require('react-spacer')
 
 function Header() {
 return (
@@ -31,7 +31,7 @@ return (
 			sx={{ mr: 2 }}
 		>
 			{/*A set of Icons wrapped in Icon */}
-			{/* <img className="logo" src={logo} alt="logo"></img> */}
+			<img className="logo" src={logo} alt="logo"></img>
 
 			<HomeIcon />
 			<p className="text-header">Home</p>
@@ -42,7 +42,7 @@ return (
 			<ThumbsUpDownIcon />
 			<p className="text-header">Trade</p>
 
-			{/* <Spacer width='35rem' /> */}
+			<Spacer width='35rem' />
 
 			<PersonAddIcon />
 			<p className="text-header">Join</p>
