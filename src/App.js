@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           WHY DOES THIS NOT DEPLOY
         </a>
       </header>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
