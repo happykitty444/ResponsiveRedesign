@@ -1,10 +1,7 @@
 import './MainItems.css';
-import { useState } from "react";
-import { Col, Row } from 'antd';
 
 // import the images needed
-import thai from "./images/thai.PNG";
-import ItemCardSmall from './ItemCardSmall';
+import headphones from "./images/headphones.png";
 import ItemsSection from './ItemsSection';
 
 function MainItems() {
@@ -14,21 +11,21 @@ function MainItems() {
         "name": "Red Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Red Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Red Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       }
     ]
@@ -39,21 +36,21 @@ function MainItems() {
         "name": "Blue Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Blue Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Blue Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       }
     ]
@@ -64,21 +61,21 @@ function MainItems() {
         "name": "Green Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Green Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       },
       {
         "name": "Green Shoes",
         "condition": "Used",
         "distance": 0.1,
-        "image": thai,
+        "image": headphones,
         "price": 20
       }
     ]

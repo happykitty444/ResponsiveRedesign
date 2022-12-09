@@ -1,18 +1,18 @@
-// A component that displays a single tea item
+import './ItemCardSmall.css';
 
 function ItemCardSmall(props) {
 	return (
 		<div className="item-card">
 			{/* image */}
-			<img src={props.item.image} alt={props.item.name}></img>
+			<img className="item-image" src={props.item.image} alt={props.item.name}></img>
 			{/* name and condition*/}
-			<h2>{props.item.name} - {props.item.condition}</h2>
+			<p className="item-name">{props.item.name} - {props.item.condition}</p>
 			{/* distance */}
-			<h3>{props.item.distance} miles away</h3>
+			<p className="item-distance">{props.item.distance} miles away</p>
 			{/* price */}
-			<h3>${props.item.price}</h3>
+			<p className="item-price">${props.item.price}</p>
 			{/* button */}
-			<button onClick={() => props.addToCart(props.item)}>Add to Cart</button>
+			<button className="item-button" onClick={() => props.addToCart(props.item)}>Add to Cart</button>
 		</div>
 	)
 }
