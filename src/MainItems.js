@@ -60,21 +60,27 @@ function MainItems() {
         "condition": "Used",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones
       },
       {
         "name": "Blue Shoes",
         "condition": "Used",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones
       },
       {
         "name": "Blue Shoes",
         "condition": "Used",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones
       }
     ]
 
