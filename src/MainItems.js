@@ -62,7 +62,16 @@ function MainItems() {
         "image": headphones,
         "price": 20,
         "sellerName": "TimmyTurbo020",
-        "sellerImage": headphones
+        "sellerImage": headphones,
+        "tag1": "Shoes",
+        "tag1img": headphones,
+        "tag2": "Shoes",
+        "tag2img": headphones,
+        "tag3": "Shoes",
+        "tag3img": headphones,
+        "tag4": "Shoes",
+        "tag4img": headphones,
+        "blurb": "I love the Yankees, the Celtics and the Mets. Size 14"
       },
       {
         "name": "Blue Shoes",
@@ -71,7 +80,16 @@ function MainItems() {
         "image": headphones,
         "price": 20,
         "sellerName": "TimmyTurbo020",
-        "sellerImage": headphones
+        "sellerImage": headphones,
+        "tag1": "Shoes",
+        "tag1img": headphones,
+        "tag2": "Shoes",
+        "tag2img": headphones,
+        "tag3": "Shoes",
+        "tag3img": headphones,
+        "tag4": "Shoes",
+        "tag4img": headphones,
+        "blurb": "I love the Yankees, the Celtics and the Mets. Size 14"
       },
       {
         "name": "Blue Shoes",
@@ -80,7 +98,16 @@ function MainItems() {
         "image": headphones,
         "price": 20,
         "sellerName": "TimmyTurbo020",
-        "sellerImage": headphones
+        "sellerImage": headphones,
+        "tag1": "Shoes",
+        "tag1img": headphones,
+        "tag2": "Shoes",
+        "tag2img": headphones,
+        "tag3": "Shoes",
+        "tag3img": headphones,
+        "tag4": "Shoes",
+        "tag4img": headphones,
+        "blurb": "I love the Yankees, the Celtics and the Mets. Size 14"
       }
     ]
 
