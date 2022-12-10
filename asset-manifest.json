@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ResponsiveRedesign/static/css/main.dca48c8b.css",
-    "main.js": "/ResponsiveRedesign/static/js/main.6208ced4.js",
+    "main.css": "/ResponsiveRedesign/static/css/main.2a1610c5.css",
+    "main.js": "/ResponsiveRedesign/static/js/main.6218e638.js",
     "static/media/headphones.png": "/ResponsiveRedesign/static/media/headphones.232a2d86492d7d384edc.png",
     "static/media/logo.png": "/ResponsiveRedesign/static/media/logo.fd84ddf6274f40983c1a.png",
     "index.html": "/ResponsiveRedesign/index.html",
-    "main.dca48c8b.css.map": "/ResponsiveRedesign/static/css/main.dca48c8b.css.map",
-    "main.6208ced4.js.map": "/ResponsiveRedesign/static/js/main.6208ced4.js.map"
+    "main.2a1610c5.css.map": "/ResponsiveRedesign/static/css/main.2a1610c5.css.map",
+    "main.6218e638.js.map": "/ResponsiveRedesign/static/js/main.6218e638.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca48c8b.css",
-    "static/js/main.6208ced4.js"
+    "static/css/main.2a1610c5.css",
+    "static/js/main.6218e638.js"
   ]
 }
