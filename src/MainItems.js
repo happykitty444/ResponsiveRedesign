@@ -2,6 +2,7 @@ import './MainItems.css';
 
 import ItemCardSmall from './ItemCardSmall';
 import ItemCardMedium from './ItemCardMedium';
+import ItemCardLarge from './ItemCardLarge';
 
 // import the images needed
 import headphones from "./images/headphones.png";
@@ -30,6 +31,31 @@ function MainItems() {
         "image": headphones,
         "price": 20
       },
+      {
+        "name": "Red Shoes",
+        "condition": "Used",
+        "distance": 0.1,
+        "image": headphones,
+        "price": 20
+      },
+      {
+        "name": "Red Shoes",
+        "condition": "Used",
+        "distance": 0.1,
+        "image": headphones,
+        "price": 20
+      },
+      {
+        "name": "Red Shoes",
+        "condition": "Used",
+        "distance": 0.1,
+        "image": headphones,
+        "price": 20
+      }
+    ]
+
+  const itemDataPreview =
+    [
       {
         "name": "Red Shoes",
         "condition": "Used",
@@ -114,25 +140,37 @@ function MainItems() {
   const itemDataTop20 =
     [
       {
-        "name": "Green Shoes",
-        "condition": "Used",
+        "name": "Limited Edition Superman Comic Book circa 1985",
+        "condition": "Mint",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones,
+        "date": "May 1st",
+        "ship": "Shipping Only"
       },
       {
-        "name": "Green Shoes",
-        "condition": "Used",
+        "name": "Limited Edition Superman Comic Book circa 1985",
+        "condition": "Mint",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones,
+        "date": "May 1st",
+        "ship": "Shipping Only"
       },
       {
-        "name": "Green Shoes",
-        "condition": "Used",
+        "name": "Limited Edition Superman Comic Book circa 1985",
+        "condition": "Mint",
         "distance": 0.1,
         "image": headphones,
-        "price": 20
+        "price": 20,
+        "sellerName": "TimmyTurbo020",
+        "sellerImage": headphones,
+        "date": "May 1st",
+        "ship": "Shipping Only"
       }
     ]
 
@@ -156,23 +194,23 @@ function MainItems() {
       <h3>Relevant to: </h3>
 
       <div className="items-section">
-				{itemDataRelevant.map(item => (
-						<div>
-							<ItemCardMedium item={item}></ItemCardMedium>
-						</div>
-				))}
-		</div>
+        {itemDataRelevant.map(item => (
+          <div>
+            <ItemCardMedium item={item}></ItemCardMedium>
+          </div>
+        ))}
+      </div>
 
       <h1 className="section-title">Top 20 Listings</h1>
       <h2>See More Listings</h2>
 
       <div className="items-section">
-				{itemDataRelevant.map(item => (
-						<div>
-							<ItemCardSmall item={item}></ItemCardSmall>
-						</div>
-				))}
-		</div>
+        {itemDataTop20.map(item => (
+          <div>
+            <ItemCardLarge small={itemDataPreview} item={item}></ItemCardLarge>
+          </div>
+        ))}
+      </div>
 
     </div>
   );

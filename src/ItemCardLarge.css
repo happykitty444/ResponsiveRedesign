@@ -1,4 +1,4 @@
-.item-card-medium {
+.item-card-large {
   /* Add shadows to create the "card" effect */
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -7,73 +7,73 @@
   transition: 0.3s;
   border-radius: 5px;
   padding: 1rem;
-  width: 24rem;
-  height: 20rem;
+  width: 38rem;
+  height: 37rem;
   position:relative;
   margin: 1rem;
 }
 
 /* On mouse-over, add a deeper shadow */
-.item-card-medium:hover {
+.item-card-large:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.item-name-medium {
+.item-name-large {
   color:black;
   font-weight: bold;
   padding-top: 0.5rem;
   margin:0;
 }
 
-.item-distance-medium {
+.item-distance-large {
   padding-top:0.5rem;
   margin:0;
 }
 
-.item-price-medium {
+.item-price-large {
   font-weight: bold;
 }
 
-.item-button-medium {
+.item-button-large {
   background-color: rgb(193, 215, 158);
   color:white;
   border:none;
   padding:0.5rem;
   border-radius: 5px;
-  position: absolute;
-  right: 1rem;
-  top: 0.5rem;
   transition: 0.3s;
-  width:10rem;
-  height:3rem;
+  display:block;
+  width: 8rem;
+  height: 3rem;
+  margin:1rem;
 }
 
-.item-button-medium:hover{
+.item-button-large:hover{
   background-color: rgb(155, 185, 107);
 }
 
-.seller-image-medium {
+.seller-image-large {
   float:left;
   border-radius: 10rem;
   width: 2rem;
   height: 2rem;
 }
 
-.seller-name-medium {
+.seller-name-large {
   float:left;
   padding-left: 0.5rem;
   position:relative;
   bottom: 0.5rem;
+  padding-right:2rem;
 }
 
-.labels-medium {
+.labels-large {
   color:black;
   font-weight: bold;
   padding-bottom: 0.5rem;
   margin:0;
 }
 
-.card-body-medium {
+.card-body-large {
   clear: both;
   display:flex;
 }
@@ -91,6 +91,10 @@
   bottom: 0.5rem;
 }
 
-.tag-div {
-  width:7rem;
+.info-box {
+  padding-left:2rem;
+}
+
+.info-div {
+  width:8rem;
 }
