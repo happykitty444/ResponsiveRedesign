@@ -1,6 +1,8 @@
 import './ItemCardLarge.css';
 
 import ItemCardSmall from './ItemCardSmall';
+import DropDown from './DropDown';
+
 
 function ItemCardLarge(props) {
 	return (
@@ -35,7 +37,7 @@ function ItemCardLarge(props) {
 						<div className='info-div' style={{marginLeft:'3rem'}}>
 							<button style={{border:'none', backgroundColor:'rgba(0,0,0,0)', fontSize:'1.5rem', width:'6rem', height:'3rem', marginTop:'1rem', marginBottom:'1rem'}}>${props.item.price}.00</button>
 							<button style={{width:'6rem', height:'3rem', fontSize:'1.3rem', marginBottom:'1rem'}}>$ 00.00</button>
-							<button style={{width:'6rem', height:'3rem', marginBottom:'1rem'}}>Blue V</button>
+							<DropDown info={props.info}/>
 						</div>
 					</div>
 				</div>

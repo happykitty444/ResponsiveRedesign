@@ -3,9 +3,11 @@ import './MainItems.css';
 import ItemCardSmall from './ItemCardSmall';
 import ItemCardMedium from './ItemCardMedium';
 import ItemCardLarge from './ItemCardLarge';
+import DropDown from './DropDown';
 
 // import the images needed
 import headphones from "./images/headphones.png";
+
 
 function MainItems() {
   const itemDataSmall =
@@ -136,6 +138,13 @@ function MainItems() {
         "blurb": "I love the Yankees, the Celtics and the Mets. Size 14"
       }
     ]
+    const DropDownRelevant =
+    {
+      "preview": "My Listings",
+      "option1": "Blue Shoes",
+      "option2": "Red Shoes",
+      "option3": "Antique Chair"
+    }
 
   const itemDataTop20 =
     [
@@ -191,7 +200,10 @@ function MainItems() {
       </div>
 
       <h1 className="section-title">Looking For Items Like Yours</h1>
+      <div style={{clear:'both', textAlign:'left'}}>
       <h3>Relevant to: </h3>
+      <DropDown info={DropDownRelevant}/>
+      </div>
 
       <div className="items-section">
         {itemDataRelevant.map(item => (
@@ -207,7 +219,7 @@ function MainItems() {
       <div className="items-section">
         {itemDataTop20.map(item => (
           <div>
-            <ItemCardLarge small={itemDataPreview} item={item}></ItemCardLarge>
+            <ItemCardLarge info={DropDownRelevant} small={itemDataPreview} item={item}></ItemCardLarge>
           </div>
         ))}
       </div>
