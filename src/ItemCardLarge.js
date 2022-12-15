@@ -42,7 +42,7 @@ function ItemCardLarge(props) {
 					</div>
 				</div>
 			</div>
-			<div className="hide-small">
+			<div>
 				<p className="item-name-large">Other listings from this seller:</p>
 				<div className="items-section">
 					{props.small.map(item => (
