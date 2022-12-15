@@ -22,7 +22,7 @@ function ItemCardLarge(props) {
 				</div>
 				<div>
 
-					<div className="info-box" style={{ display: 'flex', justifyContent:'space-evenly' }}>
+					<div className="info-box">
 						<div className='info-div'>
 							<p><b>{props.item.distance} miles away</b></p>
 							<p><b>Asking price:</b> ${props.item.price}</p>
@@ -42,7 +42,7 @@ function ItemCardLarge(props) {
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className="hide-small">
 				<p className="item-name-large">Other listings from this seller:</p>
 				<div className="items-section">
 					{props.small.map(item => (

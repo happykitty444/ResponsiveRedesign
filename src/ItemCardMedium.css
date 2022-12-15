@@ -1,3 +1,4 @@
+@media screen and (min-width: 480px) {
 .item-card-medium {
   /* Add shadows to create the "card" effect */
   text-align: left;
@@ -7,10 +8,60 @@
   transition: 0.3s;
   border-radius: 5px;
   padding: 1rem;
-  width: 24rem;
-  height: 20rem;
+  width: 20rem;
+  height: 21rem;
   position:relative;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+.item-button-medium {
+  background-color: rgb(193, 215, 158);
+  color:white;
+  border:none;
+  padding:0.5rem;
+  border-radius: 5px;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  transition: 0.3s;
+  width:8rem;
+  height:3rem;
+}
+}
+@media screen and (max-width: 480px) {
+  .item-card-medium {
+    /* Add shadows to create the "card" effect */
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 20rem;
+    height: 22rem;
+    position:relative;
+    margin: 1rem 1rem 1rem 0rem;
+  }
+
+  .item-button-medium {
+    background-color: rgb(193, 215, 158);
+    color:white;
+    border:none;
+    padding:0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    transition: 0.3s;
+    width:6rem;
+    height:3rem;
+  }
+  
+}
+
+.item-button-medium:hover{
+  background-color: rgb(155, 185, 107);
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -32,24 +83,6 @@
 
 .item-price-medium {
   font-weight: bold;
-}
-
-.item-button-medium {
-  background-color: rgb(193, 215, 158);
-  color:white;
-  border:none;
-  padding:0.5rem;
-  border-radius: 5px;
-  position: absolute;
-  right: 1rem;
-  top: 0.5rem;
-  transition: 0.3s;
-  width:10rem;
-  height:3rem;
-}
-
-.item-button-medium:hover{
-  background-color: rgb(155, 185, 107);
 }
 
 .seller-image-medium {
