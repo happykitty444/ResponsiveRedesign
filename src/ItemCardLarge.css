@@ -76,6 +76,8 @@
 .card-body-large {
   clear: both;
   display:flex;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .item-tag-image {

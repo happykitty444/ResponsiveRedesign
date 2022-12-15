@@ -14,7 +14,6 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 
 import logo from "./images/logo.png"
-const Spacer = require('react-spacer')
 
 function Header() {
 return (
@@ -28,27 +27,37 @@ return (
 			edge="end"
 			color="inherit"
 			aria-label="menu" 
-			sx={{ mr: 2 }}
+			sx={{ mr: 2 }} className= "icons"
 		>
 			{/*A set of Icons wrapped in Icon */}
+			<div className="mini-header">
 			<img className="logo" src={logo} alt="logo"></img>
 
-			<HomeIcon />
+			<div>
+			<HomeIcon className="icon" />
 			<p className="text-header">Home</p>
-			
-			<SearchIcon />
+			</div>
+
+			<div>
+			<SearchIcon className="icon" />
 			<p className="text-header">Search</p>
+			</div>
 			
-			<ThumbsUpDownIcon />
+			<div>
+			<ThumbsUpDownIcon className="icon" />
 			<p className="text-header">Trade</p>
+			</div>
 
-			<Spacer width='35rem' />
-
-			<PersonAddIcon />
+			<div>
+			<PersonAddIcon className="icon" />
 			<p className="text-header">Join</p>
+			</div>
 
-			<AccountCircleIcon />
+			<div>
+			<AccountCircleIcon className="icon" />
 			<p className="text-header">Sign In</p>
+			</div>
+			</div>
 
 		</IconButton>
 		{/* The Typography component applies

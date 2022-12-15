@@ -51,13 +51,6 @@ function Search() {
 					<p>Outdoors</p>
 				</div>
 			</div>
-			<div className="category-div-two">
-				<div className='category-mini'>
-					<p>My Profile</p>
-					<p>My Shop</p>
-					<p>Cart</p>
-				</div>
-			</div>
 			</div>
 		</div>
 	);

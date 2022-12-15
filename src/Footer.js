@@ -14,7 +14,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-const Spacer = require('react-spacer')
 
 function Footer() {
 return (
@@ -31,28 +30,23 @@ return (
 			sx={{ mr: 2 }}
 		>
 			{/*A set of Icons wrapped in Icon */}
-			<InfoIcon />
+			<InfoIcon className="icon"/>
 			<p className="text-footer">About</p>
-			
-			<HelpIcon />
+			<HelpIcon className="icon" />
 			<p className="text-footer">Support</p>
-			
-			<ContactPhoneIcon />
+			<ContactPhoneIcon className="icon" />
 			<p className="text-footer">Contact</p>
 
-			<Spacer width='10rem' />
-
+			<div className="hide-small">
 			<p className="fine-print">Copyright</p>
 			<p className="fine-print">Terms of Service</p>
 			<p className="fine-print">User Agreement</p>
-
-			<Spacer width='15rem' />
+			</div>
 
 			<InstagramIcon fontSize="large"/>
 			<TwitterIcon fontSize="large"/>
 			<FacebookIcon fontSize="large"/>
 			
-
 		</IconButton>
 		{/* The Typography component applies
 		default font weights and sizes */}

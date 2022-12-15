@@ -2,18 +2,49 @@
   color:rgb(221, 162, 14);
 }
 
+@media screen and (min-width: 480px) {
 .text-header {
   color:white;
   font-size: 1.5rem;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight:600;
-  padding-right: 3rem;
+  padding-right: 2rem;
+  margin: 0;
+  float: left;
  }
+}
+@media screen and (max-width: 475px) {
+  .text-header {
+    display: none;
+    color:white;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    padding-right: 2rem;
+    margin: 0;
+    float: left;
+   }
+  }
 
  .toolbar {
   background-color: orange;
  }
 
+ .mini-header {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
  .logo{
-  padding-right: 2rem;
+  padding-right: 1rem;
+ }
+
+ .icon {
+  float: left;
+  padding-right: 0.5rem;
+ }
+
+ .icons {
+  padding: 0;
+  margin:0;
  }
