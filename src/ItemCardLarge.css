@@ -2,7 +2,7 @@
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: rgb(0, 0, 0);
-  background-color: rgba(232, 33, 33, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
   border-radius: 5px;
   padding: 1rem;
@@ -12,7 +12,7 @@
   margin: 1rem;
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .item-card-large:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
