@@ -157,7 +157,8 @@ function MainItems() {
         "sellerName": "TimmyTurbo020",
         "sellerImage": headphones,
         "date": "May 1st",
-        "ship": "Shipping Only"
+        "ship": "Shipping Only",
+        "id": 0
       },
       {
         "name": "Limited Edition Superman Comic Book circa 1985",
@@ -168,7 +169,8 @@ function MainItems() {
         "sellerName": "TimmyTurbo020",
         "sellerImage": headphones,
         "date": "May 1st",
-        "ship": "Shipping Only"
+        "ship": "Shipping Only",
+        "id": 1
       },
       {
         "name": "Limited Edition Superman Comic Book circa 1985",
@@ -179,7 +181,8 @@ function MainItems() {
         "sellerName": "TimmyTurbo020",
         "sellerImage": headphones,
         "date": "May 1st",
-        "ship": "Shipping Only"
+        "ship": "Shipping Only",
+        "id": 2
       }
     ]
 
@@ -192,9 +195,9 @@ function MainItems() {
       </div>
 
       <div className="items-section">
-        {itemDataSmall.map(item => (
+        {itemDataSmall.map((item, index) => (
           <div>
-            <ItemCardSmall item={item}></ItemCardSmall>
+            <ItemCardSmall key={index} item={item}></ItemCardSmall>
           </div>
         ))}
       </div>
@@ -206,9 +209,9 @@ function MainItems() {
       </div>
 
       <div className="items-section">
-        {itemDataRelevant.map(item => (
+        {itemDataRelevant.map((item, index) => (
           <div>
-            <ItemCardMedium item={item}></ItemCardMedium>
+            <ItemCardMedium key={index} item={item}></ItemCardMedium>
           </div>
         ))}
       </div>
@@ -219,7 +222,7 @@ function MainItems() {
       <div className="items-section">
         {itemDataTop20.map(item => (
           <div>
-            <ItemCardLarge info={DropDownRelevant} small={itemDataPreview} item={item}></ItemCardLarge>
+            <ItemCardLarge key={item.id} info={DropDownRelevant} small={itemDataPreview} item={item}></ItemCardLarge>
           </div>
         ))}
       </div>

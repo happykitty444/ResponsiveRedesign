@@ -6,16 +6,16 @@ import DropDown from './DropDown';
 
 function ItemCardLarge(props) {
 	return (
-		<div className="item-card-large">
+		<div className="item-card-large"> 
 			<div style={{ position: 'relative' }}>
-				{/* seller image */}
+				{/* seller image*/}
 				<img className="seller-image-large" src={props.item.sellerImage} alt={props.item.sellerName}></img>
 				{/* seller name */}
 				<p className="seller-name-large">{props.item.sellerName}</p>
 				{/* item title */}
 				<p className="item-name-large">{props.item.name} - {props.item.condition}</p>
 			</div>
-			<div style={{ display: 'flex', clear: 'both' }}>
+			<div className="info-holder" style={{ display: 'flex', clear: 'both' }}>
 				<div>
 					{/* item image */}
 					<img className="item-image-medium" src={props.item.sellerImage} alt={props.item.sellerName}></img>
@@ -34,7 +34,7 @@ function ItemCardLarge(props) {
 							<button className="item-button-large">Make Offer</button>
 							<button className="item-button-large">Offer Trade</button>
 						</div>
-						<div className='info-div' style={{marginLeft:'3rem'}}>
+						<div className='info-div hide-small' style={{marginLeft:'3rem'}}>
 							<button style={{border:'none', backgroundColor:'rgba(0,0,0,0)', fontSize:'1.5rem', width:'6rem', height:'3rem', marginTop:'1rem', marginBottom:'1rem'}}>${props.item.price}.00</button>
 							<button style={{width:'6rem', height:'3rem', fontSize:'1.3rem', marginBottom:'1rem'}}>$ 00.00</button>
 							<DropDown info={props.info}/>
@@ -45,9 +45,9 @@ function ItemCardLarge(props) {
 			<div>
 				<p className="item-name-large">Other listings from this seller:</p>
 				<div className="items-section">
-					{props.small.map(item => (
+					{props.small.map((item, index) => (
 						<div>
-							<ItemCardSmall item={item}></ItemCardSmall>
+							<ItemCardSmall key={index} item={item}></ItemCardSmall>
 						</div>
 					))}
 				</div>
